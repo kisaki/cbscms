@@ -1,0 +1,81 @@
+/* we put margin to 0 and choose font-family and color for all elements */
+
+*{ margin:0; font-family:sans-serif; color:#666;}
+
+html{ background:#eee;}
+h1, h2, h3{color:#0072BB;}
+body{margin: 0 auto; width:900px; background:#fff; padding: 5px;
+	-moz-box-shadow: 0 7px 10px #333;
+	-webkit-box-shadow: 0 7px 10px #333;
+	-o-box-shadow: 0 7px 10px #333;
+	box-shadow: 0 7px 10px #333;
+	margin-bottom:10px;
+}
+
+#header{
+	height:160px;
+	border-bottom:solid thin #000;
+}
+#header img{
+	height:100%;
+	border:none;
+}
+#nav{
+	float:left;
+	margin-top:10px;
+	width:140px;
+	height:100%;
+	border:2px solid #0072BB;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding:4px;
+}
+#nav b{
+	color:#0072BB;
+	display:block;
+	background:#fff;
+	text-align:center;
+}
+#nav ul{
+	list-style:none;
+	padding:0;
+	background-color:#0072BB;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#nav ul li{
+	display:block;
+	border-bottom:thin dashed #fff;
+}
+#nav ul li:last-child{
+	border:none;
+}
+#nav li a{
+	color:#fff;
+	padding:5px;
+	text-decoration:none;
+	display:block;
+}
+#nav li a:hover{
+	background-color:#fff;
+	color:#0072BB;
+}
+#main{
+	float:left;
+	padding: 0 5px;
+	padding-left:10px;
+	width:80%;
+	padding-bottom:10px;
+}
+#main p{
+	text-align:justify;
+}
+#footer{
+	clear:both;
+	text-align:center;
+	font-size:9pt;
+	border-top:thin solid #ccc;
+	padding:5px;
+}
